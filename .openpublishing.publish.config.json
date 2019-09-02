@@ -6,7 +6,10 @@
       "build_output_subfolder": "onedrive",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [
+        ">= odsp-graph-online",
+        "<= odsp-graph-2019"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -17,9 +20,8 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [
-    "dspektor@microsoft.com"
-  ],
+  "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/OneDrive/onedrive-api-docs",
   "git_repository_branch_open_to_public_contributors": "live",
